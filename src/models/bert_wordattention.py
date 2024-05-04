@@ -19,7 +19,7 @@ class WordAttention(torch.nn.Module):
         self.attention_dim = attention_dim
         self.recurrent_size = recurrent_size
         self._device = device
-        self.bert_model = BertModel.from_pretrained(bert_version)
+        self.bert_model = BertModel.from_pretrained(bert_version, return_dict=False)
 
         # Maps BERT output to `attention_dim` sized tensor
         self.word_weight = nn.Linear(self.recurrent_size, self.attention_dim)
