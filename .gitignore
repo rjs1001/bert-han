@@ -116,7 +116,7 @@ node_modules
 src/**/Pipfile
 src/**/.venv
 
-data/
+# data/
 
 classifiers/
 
