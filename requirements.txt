@@ -1,0 +1,16 @@
+torch
+torchtext
+attrs
+jsonnet
+dill
+tqdm
+stanford-corenlp
+spacy
+en-core-web-sm
+ftfy
+pypeln 
+pathos 
+scikit-learn 
+ipykernel
+matplotlib
+transformers
